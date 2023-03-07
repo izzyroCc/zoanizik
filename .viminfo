@@ -12,13 +12,15 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1677459385,,"wq!"
+|2,0,1678166033,,"wq!"
+:q!
+|2,0,1677461476,,"q!"
+:q
+|2,0,1677460764,,"q"
 :w !sudo tee %
 |2,0,1676952573,,"w !sudo tee %"
 ::w !sudo tee %
 |2,0,1676952541,,":w !sudo tee %"
-:q!
-|2,0,1676952825,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -31,30 +33,249 @@
 # Registers:
 
 # File marks:
-'0  1  34  ~/global.sh
-|4,48,1,34,1677459385,"~/global.sh"
-'1  7  9  /opt/user
-|4,49,7,9,1676964981,"/opt/user"
-'2  1  0  /opt/user
-|4,50,1,0,1676952825,"/opt/user"
+'0  13  4  ~/userlist.txt
+|4,48,13,4,1678166034,"~/userlist.txt"
+'1  2  0  ~/.git/COMMIT_EDITMSG
+|4,49,2,0,1677461476,"~/.git/COMMIT_EDITMSG"
+'2  5  29  ~/.gitconfig
+|4,50,5,29,1677461247,"~/.gitconfig"
+'3  1  0  ~/.gitconfig
+|4,51,1,0,1677461147,"~/.gitconfig"
+'4  1  0  ~/.gitconfig
+|4,52,1,0,1677461147,"~/.gitconfig"
+'5  1  0  ~/.gitconfig
+|4,53,1,0,1677461105,"~/.gitconfig"
+'6  1  0  ~/.gitconfig
+|4,54,1,0,1677461105,"~/.gitconfig"
+'7  2  0  ~/.git/COMMIT_EDITMSG
+|4,55,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+'8  1  34  ~/global.sh
+|4,56,1,34,1677459385,"~/global.sh"
+'9  7  9  /opt/user
+|4,57,7,9,1676964981,"/opt/user"
 
 # Jumplist (newest first):
+-'  13  4  ~/userlist.txt
+|4,39,13,4,1678166034,"~/userlist.txt"
+-'  1  0  ~/userlist.txt
+|4,39,1,0,1678166010,"~/userlist.txt"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677461476,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677461476,"~/.git/COMMIT_EDITMSG"
+-'  5  29  ~/.gitconfig
+|4,39,5,29,1677461247,"~/.gitconfig"
+-'  5  29  ~/.gitconfig
+|4,39,5,29,1677461247,"~/.gitconfig"
+-'  5  29  ~/.gitconfig
+|4,39,5,29,1677461247,"~/.gitconfig"
+-'  5  29  ~/.gitconfig
+|4,39,5,29,1677461247,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461172,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461172,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461172,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461172,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461147,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461147,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461147,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461147,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461105,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461105,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461105,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677461105,"~/.gitconfig"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1677460764,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1677460743,"~/.git/COMMIT_EDITMSG"
 -'  1  34  ~/global.sh
 |4,39,1,34,1677459385,"~/global.sh"
--'  7  9  /opt/user
-|4,39,7,9,1676964981,"/opt/user"
--'  7  9  /opt/user
-|4,39,7,9,1676964981,"/opt/user"
--'  1  0  /opt/user
-|4,39,1,0,1676952825,"/opt/user"
--'  1  0  /opt/user
-|4,39,1,0,1676952825,"/opt/user"
--'  1  0  /opt/user
-|4,39,1,0,1676952270,"/opt/user"
--'  1  0  /opt/user
-|4,39,1,0,1676952270,"/opt/user"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
+-'  1  34  ~/global.sh
+|4,39,1,34,1677459385,"~/global.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/userlist.txt
+	*	1678166028	0
+	"	13	4
+	^	13	5
+	.	13	4
+	+	13	4
+
+> ~/.git/COMMIT_EDITMSG
+	*	1677461470	0
+	"	2	0
+
+> ~/.gitconfig
+	*	1677461243	0
+	"	5	29
+	^	5	30
+	.	5	29
+	+	4	16
+	+	5	29
 
 > ~/global.sh
 	*	1677459379	0
